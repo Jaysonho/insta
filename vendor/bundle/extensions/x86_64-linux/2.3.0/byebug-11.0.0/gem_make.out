@@ -1,0 +1,19 @@
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/byebug-11.0.0/ext/byebug
+/home/jayson/.rvm/rubies/ruby-2.3.4/bin/ruby -r ./siteconf20190228-17490-65r9qa.rb extconf.rb
+creating Makefile
+
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/byebug-11.0.0/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/byebug-11.0.0/ext/byebug
+make "DESTDIR="
+compiling threads.c
+compiling breakpoint.c
+compiling context.c
+compiling locker.c
+compiling byebug.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/byebug-11.0.0/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -m 0755 byebug.so ./.gem.20190228-17490-1lgpdz4/byebug

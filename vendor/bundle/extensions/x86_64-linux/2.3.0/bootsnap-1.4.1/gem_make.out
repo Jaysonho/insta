@@ -1,0 +1,29 @@
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/bootsnap-1.4.1/ext/bootsnap
+/home/jayson/.rvm/rubies/ruby-2.3.4/bin/ruby -r ./siteconf20190228-17490-723rrl.rb extconf.rb
+creating Makefile
+
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/bootsnap-1.4.1/ext/bootsnap
+make "DESTDIR=" clean
+
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/bootsnap-1.4.1/ext/bootsnap
+make "DESTDIR="
+compiling bootsnap.c
+bootsnap.c: In function ‘get_ruby_platform’:
+bootsnap.c:214:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   struct utsname utsname;
+   ^
+bootsnap.c: In function ‘bs_cache_path’:
+bootsnap.c:240:24: warning: format ‘%llx’ expects argument of type ‘long long unsigned int’, but argument 5 has type ‘uint64_t {aka long unsigned int}’ [-Wformat=]
+   sprintf(*cache_path, "%s/%02x/%014llx", cachedir, first_byte, remainder);
+                        ^
+bootsnap.c: In function ‘bs_rb_fetch’:
+bootsnap.c:281:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   char * cachedir = RSTRING_PTR(cachedir_v);
+   ^
+linking shared-object bootsnap/bootsnap.so
+bootsnap.o: In function `atomic_write_cache_file':
+/home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/bootsnap-1.4.1/ext/bootsnap/bootsnap.c:479: warning: the use of `mktemp' is dangerous, better use `mkstemp' or `mkdtemp'
+
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/bootsnap-1.4.1/ext/bootsnap
+make "DESTDIR=" install
+/usr/bin/install -m 0755 bootsnap.so ./.gem.20190228-17490-94zq1y/bootsnap

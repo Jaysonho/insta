@@ -1,0 +1,38 @@
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/msgpack-1.2.6/ext/msgpack
+/home/jayson/.rvm/rubies/ruby-2.3.4/bin/ruby -r ./siteconf20190228-17490-15emuej.rb extconf.rb
+checking for ruby/st.h... yes
+checking for st.h... yes
+checking for rb_str_replace() in ruby.h... yes
+checking for rb_intern_str() in ruby.h... yes
+checking for rb_sym2str() in ruby.h... yes
+checking for rb_str_intern() in ruby.h... yes
+checking for rb_block_lambda() in ruby.h... yes
+checking for rb_hash_dup() in ruby.h... yes
+checking for rb_hash_clear() in ruby.h... yes
+creating Makefile
+
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/msgpack-1.2.6/ext/msgpack
+make "DESTDIR=" clean
+
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/msgpack-1.2.6/ext/msgpack
+make "DESTDIR="
+compiling extension_value_class.c
+compiling factory_class.c
+compiling unpacker_class.c
+unpacker_class.c:219:14: warning: ‘Unpacker_peek_next_type’ defined but not used [-Wunused-function]
+ static VALUE Unpacker_peek_next_type(VALUE self)
+              ^
+compiling unpacker_ext_registry.c
+compiling packer_class.c
+compiling rbinit.c
+compiling packer.c
+compiling packer_ext_registry.c
+compiling unpacker.c
+compiling buffer_class.c
+compiling buffer.c
+compiling rmem.c
+linking shared-object msgpack/msgpack.so
+
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/msgpack-1.2.6/ext/msgpack
+make "DESTDIR=" install
+/usr/bin/install -m 0755 msgpack.so ./.gem.20190228-17490-w928rr/msgpack

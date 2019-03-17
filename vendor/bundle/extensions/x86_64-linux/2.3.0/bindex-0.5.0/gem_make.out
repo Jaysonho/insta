@@ -1,0 +1,15 @@
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+/home/jayson/.rvm/rubies/ruby-2.3.4/bin/ruby -r ./siteconf20190228-17490-1uebjtn.rb extconf.rb
+creating Makefile
+
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" clean
+
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR="
+compiling cruby.c
+linking shared-object bindex/cruby.so
+
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/bindex-0.5.0/ext/bindex
+make "DESTDIR=" install
+/usr/bin/install -m 0755 cruby.so ./.gem.20190228-17490-j635d2/bindex

@@ -1,0 +1,15 @@
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+/home/jayson/.rvm/rubies/ruby-2.3.4/bin/ruby -r ./siteconf20190228-17490-3fmuxv.rb extconf.rb
+creating Makefile
+
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.so
+
+current directory: /home/jayson/Web_Dev_Projects/insta/vendor/bundle/gems/websocket-driver-0.7.0/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -m 0755 websocket_mask.so ./.gem.20190228-17490-17ahj74
